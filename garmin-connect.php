@@ -23,7 +23,7 @@ class GarminConnect extends WP_Widget {
      	$widget_ops = array('classname' => 'widget_garminconnect', 'description' => 'Display Garmin Connect activities');
         $control_ops = array('width' => 250, 'height' => 100, 'id_base' => 'garminconnect');
   		$this->WP_Widget('garminconnect', 'Garmin Connect', $widget_ops, $control_ops);
-        $this->plugin_folder = get_option('siteurl').'/'.PLUGINDIR.'/garmin-connect/';
+        $this->plugin_folder = get_option('siteurl').'/'.PLUGINDIR.'/garmin-wordpress/';
         add_action('admin_menu', array($this,'garminconnect_menu'));
        	add_action('wp_head', array($this, 'garminconnect_admin_head'), 1);
 
