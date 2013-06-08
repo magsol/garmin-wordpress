@@ -1,0 +1,94 @@
+/*
+	Settings for all JQuery styles of the Widget (Style 1 & 2)
+*/
+
+
+
+h3.GCAccordionHeader, #sidebar h3.GCAccordionHeader, #sidebar2 h3.GCAccordionHeader {
+	font-size: 10px;
+}
+
+.GarminConnectWidgetTitle {
+	text-decoration: bold;
+}
+
+.GCAccordionStyle {
+	font-size: 10px;
+
+}
+
+.GCAccordionStyle  .ui-accordion-header a {
+	font-size: 1.2em;
+	color: black;
+}
+
+.GCAccordionHeaderTitle {
+	font-size: 1.1em;
+}
+
+.GCAccordionDivTag {
+	padding: 0px;
+}
+
+.GCAccordionPTag {
+	padding-top: 5px;
+	margin-top: 5px;
+	font-size: 1.0em;
+}
+
+.GCAccordionDataTable {
+	border: 0px solid black;
+	padding: 0px;
+	font-size: 1.0em;
+
+}
+
+.GCAccordionDataRow {
+}
+
+.GCAccordionDataTitle {
+	width: 47%;
+}
+.GCAccordionDataValue {
+	width: 53%;
+}
+
+.GCAccordionLinkText {
+	padding-bottom: 5px;
+}
+
+.ui-widget-content .GCAccordionLinkValue{
+	color:blue;
+}
+
+
+/*
+	Settings for adding custom images/background to Style 2 of the widget 
+*/
+
+/* Change this row to change the default icon shown to left of each activity header */
+.ui-icon-custom, .ui-state-default .ui-icon-custom { 
+	background-image: url(images/clock.png)
+}
+
+/* Change this row to change icon shown on the row that is expanded */ 
+.ui-icon-custom-expand, .ui-state-default .ui-icon-custom-expand, .ui-state-active .ui-icon-custom-expand { 
+	background-image: url(images/clock_red.png)
+}
+
+/* Modify this to change the background (default blue) of each activity header */
+.GCAccordionStyle2 .GCAccordionHeader {
+	background:#EBEADB url(images/grid-hrow.gif) repeat-x scroll 0 0;
+	border-bottom:1px solid #99BBE8;
+}
+
+
+
+/* 
+	Ensure we have the maximum width possible in the sidebar
+*/
+.ui-accordion .ui-accordion-content {
+	padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}

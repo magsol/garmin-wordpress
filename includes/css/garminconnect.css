@@ -1,0 +1,118 @@
+
+.GarminConnectWidgetTitle {
+	font-size: 1.5em;
+	text-decoration: bold;
+}
+
+
+/* Styling for the entire widget */
+#garminConnectWidget {
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	font-size:10px;	
+	font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;
+	font-size:10px;	
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	width: 200px;
+}
+
+#garminConnectWidget UL {
+	padding: 3px 0px 0px 0px;
+	list-style-image: none;
+	list-style-type: none;
+	color: black;
+	width: 200px;
+
+}
+
+#garminConnectWidget li {
+	text-indent: 0px;
+	background: none;
+}
+
+/* Styling for all lines of each activity*/
+#garminConnectWidget ul li, #sidebar #garminConnectWidget ul li {
+	color: black;
+	width: 200px;
+
+}
+
+/* Styling for the first line - the one with the hyperlink */
+#garminConnectWidget ul li.main {
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-top: 5px;
+	list-style-type: none;
+	list-style-position: outside;
+	font-weight: bold;
+	clear: left;
+	font-size: 1.125em;
+
+}
+
+#garminConnectWidget ul li.main a {
+	color: blue;
+}
+
+/* Styling for the rest of the lines for that activity */
+#garminConnectWidget ul li.info {
+	margin-left: 0px; 
+	list-style-type: none;
+	clear: left;
+	font-size: 0.9em;
+
+}
+
+
+/* This is to remove ghost arrows that show up before each line in default Wordpress theme */
+#sidebar ul #garminConnectWidget ul li:before {
+	content: none;
+}
+
+/* Gives more room in the sidebar for the widget */
+#sidebar ul #garminConnectWidget {
+	margin-left: -10px;
+}
+
+div.gclink_act
+{
+	font-size : 7pt;
+  text-align: center;
+  border-top: 1px solid #4c7a8a;
+  border-right: 1px solid #4c7a8a;
+  border-left: 1px solid #214967;
+  border-bottom: 1px solid #214967;
+  padding : 5px;
+  /* optional rounded corners for browsers that support it */
+  -moz-border-radius: 5px;
+
+  -khtml-border-radius: 5px;
+
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+div.gclink_act.aligncenter {
+  margin: 10px auto;
+  display: block;
+  }
+
+div.gclink_act.alignleft {
+  float: left;
+  text-align: center;
+  margin: 5px 20px 5px 0;
+} 
+div.gclink_act.alignright {
+  float: right;
+  text-align: center;
+  margin: 5px 0 5px 10px;
+  }
+
+ .GCAccordionStyle .ui-accordion-header a {
+	overflow: hidden;
+}
