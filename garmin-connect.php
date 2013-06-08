@@ -379,7 +379,7 @@ class GarminConnect extends WP_Widget {
  
 		<tr valign="top">
 		<th scope="row">Garmin Connect Password</th>
-		<td><input type="text" name="gc_password" value="<?php echo get_option('gc_password'); ?>" /></td>
+		<td><input type="password" name="gc_password" value="<?php echo get_option('gc_password'); ?>" /></td>
 		</tr>
 
 		<tr valign="top">
